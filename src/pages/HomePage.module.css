@@ -1,0 +1,57 @@
+/* src/pages/HomePage.module.css */
+.homePage {
+  padding-top: 2rem; /* Espaço abaixo do header */
+  padding-bottom: 2rem;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  margin-bottom: 3rem;
+  background-color: var(--color-white); /* Ou uma imagem/gradiente */
+  border-radius: 8px;
+  box-shadow: var(--shadow-sm);
+}
+
+.heroTitle {
+  font-size: 2.5rem;
+  color: var(--color-primary);
+  margin-bottom: 1rem;
+}
+
+.heroSubtitle {
+  font-size: 1.1rem;
+  color: var(--color-text-light);
+  max-width: 600px;
+  margin: 0 auto; /* Centraliza o subtítulo se for menor que o contêiner */
+}
+
+.carListSection {
+  margin-top: 3rem;
+}
+
+.carListSection h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+  color: var(--color-text);
+}
+
+.carGrid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(300px, 1fr)
+  ); /* Grid responsivo */
+  gap: 2rem; /* Espaçamento entre os cards */
+}
+
+/* Estilos para a barra de filtro (opcional) */
+.filterBar {
+  background-color: var(--color-white);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  box-shadow: var(--shadow-sm);
+  /* Adicionar inputs, selects aqui */
+}

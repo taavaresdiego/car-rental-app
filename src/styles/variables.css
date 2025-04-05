@@ -1,0 +1,22 @@
+/* src/styles/variables.css */
+:root {
+  /* Colors */
+  --color-white: #ffffff;
+  --color-background: #f8f9fa;
+  --color-text: #343a40;
+  --color-text-light: #6c757d;
+  --color-primary: #007bff;
+  --color-primary-dark: #0056b3;
+  --color-border: #dee2e6;
+  --color-error: #dc3545;
+  --color-success: #28a745;
+
+  /* Typography */
+  --font-primary: "Poppins", sans-serif;
+  --font-secondary: "Lato", sans-serif;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.03);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}

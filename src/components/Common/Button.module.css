@@ -1,0 +1,26 @@
+/* src/components/Common/Button.module.css */
+.button {
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease, color 0.2s ease, opacity 0.2s ease;
+  font-family: var(--font-primary);
+  cursor: pointer;
+}
+
+.button.primary {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.button.primary:hover:not(:disabled) {
+  background-color: var(--color-primary-dark);
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+/* Adicionar outras variantes (secondary, danger, etc.) se necessário */

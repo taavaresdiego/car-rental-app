@@ -1,0 +1,12 @@
+/* src/components/Footer.module.css */
+.footer {
+  background-color: var(--color-text);
+  color: var(--color-background);
+  padding: 2rem 0;
+  margin-top: 4rem; /* Espaço acima do footer */
+  text-align: center;
+}
+
+.footer p {
+  font-size: 0.9rem;
+}
